@@ -48,5 +48,7 @@ public class P02GetMinionNames {
 
             counter++;
         }
+
+        connection.close();
     }
 }
