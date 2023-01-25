@@ -13,7 +13,7 @@ public class P04ChangeTownNamesCasing {
         properties.setProperty("password", "");
 
         Connection connection = DriverManager
-                .getConnection("jdbc:mysql://localhost:3307/minions_db", properties);
+                .getConnection("jdbc:mysql://localhost:3306/minions_db", properties);
 
         Scanner scanner = new Scanner(System.in);
         String countryName = scanner.nextLine();
